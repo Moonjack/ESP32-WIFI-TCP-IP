@@ -1,0 +1,23 @@
+[1/9] Performing build step for 'bootloader'
+[1/1] cd /home/tamer/esp/tcp_server/build/bootloader/esp-idf/esptool_py && /home/tamer/.espressif/python_env/idf5.1_py3.10_env/bin/python /home/tamer/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/tamer/esp/tcp_server/build/bootloader/bootloader.bin
+Bootloader binary size 0x66c0 bytes. 0x940 bytes (8%) free.
+[2/7] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/tcp_server.c.obj
+/home/tamer/esp/tcp_server/main/tcp_server.c: In function 'tcp_server_task':
+/home/tamer/esp/tcp_server/main/tcp_server.c:128:9: warning: unused variable 'opt' [-Wunused-variable]
+  128 |     int opt = 1;
+      |         ^~~
+At top level:
+/home/tamer/esp/tcp_server/main/tcp_server.c:92:13: warning: 'tcp_server_task' defined but not used [-Wunused-function]
+   92 | static void tcp_server_task(void *pvParameters)
+      |             ^~~~~~~~~~~~~~~
+[3/7] Linking C static library esp-idf/main/libmain.a
+[4/7] Generating ld/sections.ld
+[5/7] Linking CXX executable tcp_server.elf
+[6/7] Generating binary image from built executable
+esptool.py v4.3
+Creating esp32 image...
+Merged 25 ELF sections
+Successfully created esp32 image.
+Generated /home/tamer/esp/tcp_server/build/tcp_server.bin
+[7/7] cd /home/tamer/esp/tcp_server/build/esp-idf/esptool_py && /home/tamer/.espressif/python_env/idf5.1_py3.10_env/bin/python /home/tamer/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/tamer/esp/tcp_server/build/partition_table/partition-table.bin /home/tamer/esp/tcp_server/build/tcp_server.bin
+tcp_server.bin binary size 0xad8a0 bytes. Smallest app partition is 0x100000 bytes. 0x52760 bytes (32%) free.

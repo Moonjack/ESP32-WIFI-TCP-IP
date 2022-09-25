@@ -1,0 +1,1 @@
+cmd='/usr/bin/cmake;-DSDKCONFIG=/home/tamer/esp/tcp_server/sdkconfig;-DIDF_PATH=/home/tamer/esp/esp-idf;-DIDF_TARGET=esp32;-DPYTHON_DEPS_CHECKED=1;-DPYTHON=/home/tamer/.espressif/python_env/idf5.1_py3.10_env/bin/python;-DEXTRA_COMPONENT_DIRS=/home/tamer/esp/esp-idf/components/bootloader;-DPROJECT_SOURCE_DIR=/home/tamer/esp/tcp_server;-GNinja;<SOURCE_DIR><SOURCE_SUBDIR>'

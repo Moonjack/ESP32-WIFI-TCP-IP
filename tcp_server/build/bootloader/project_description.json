@@ -1,0 +1,22 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "/home/tamer/esp/esp-idf/components/bootloader/subproject",
+    "build_dir":          "/home/tamer/esp/tcp_server/build/bootloader",
+    "config_file":        "/home/tamer/esp/tcp_server/sdkconfig",
+    "config_defaults":    "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "git_revision":       "v5.1-dev-736-gd6d8324ad9",
+    "target":             "esp32",
+    "rev":                "0",
+    "phy_data_partition": "",
+    "monitor_baud" :      "115200",
+    "monitor_toolprefix": "xtensa-esp32-elf-",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "/home/tamer/esp/esp-idf/components/efuse/Kconfig;/home/tamer/esp/esp-idf/components/esp_common/Kconfig;/home/tamer/esp/esp-idf/components/esp_hw_support/Kconfig;/home/tamer/esp/esp-idf/components/esp_system/Kconfig;/home/tamer/esp/esp-idf/components/freertos/Kconfig;/home/tamer/esp/esp-idf/components/hal/Kconfig;/home/tamer/esp/esp-idf/components/log/Kconfig;/home/tamer/esp/esp-idf/components/newlib/Kconfig;/home/tamer/esp/esp-idf/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "/home/tamer/esp/esp-idf/components/bootloader/Kconfig.projbuild;/home/tamer/esp/esp-idf/components/esp_app_format/Kconfig.projbuild;/home/tamer/esp/esp-idf/components/esp_rom/Kconfig.projbuild;/home/tamer/esp/esp-idf/components/esptool_py/Kconfig.projbuild;/home/tamer/esp/esp-idf/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp_app_format", "esp_common", "esp_hw_support", "esp_rom", "esp_system", "esptool_py", "freertos", "hal", "log", "main", "micro-ecc", "newlib", "partition_table", "soc", "spi_flash", "xtensa", "" ],
+    "build_component_paths" : [ "/home/tamer/esp/esp-idf/components/bootloader", "/home/tamer/esp/esp-idf/components/bootloader_support", "/home/tamer/esp/esp-idf/components/efuse", "/home/tamer/esp/esp-idf/components/esp_app_format", "/home/tamer/esp/esp-idf/components/esp_common", "/home/tamer/esp/esp-idf/components/esp_hw_support", "/home/tamer/esp/esp-idf/components/esp_rom", "/home/tamer/esp/esp-idf/components/esp_system", "/home/tamer/esp/esp-idf/components/esptool_py", "/home/tamer/esp/esp-idf/components/freertos", "/home/tamer/esp/esp-idf/components/hal", "/home/tamer/esp/esp-idf/components/log", "/home/tamer/esp/esp-idf/components/bootloader/subproject/main", "/home/tamer/esp/esp-idf/components/bootloader/subproject/components/micro-ecc", "/home/tamer/esp/esp-idf/components/newlib", "/home/tamer/esp/esp-idf/components/partition_table", "/home/tamer/esp/esp-idf/components/soc", "/home/tamer/esp/esp-idf/components/spi_flash", "/home/tamer/esp/esp-idf/components/xtensa", "" ],
+    "debug_prefix_map_gdbinit": ""
+}
